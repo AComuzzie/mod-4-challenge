@@ -1,17 +1,16 @@
-var startButton = document.getElementById(".start-button");
+var startButton = document.getElementById("start");
 var timerSpan = document.getElementById("time-left")
 
-var timeLeft = 75;
+var timeLeft = 5;
 
 function startGame() {
-
     var gameInterval = setInterval(() => {
-        timerSpan.textContent = timeLeft--;
+     timerSpan.textContent = timeLeft--;
 
-        if(!timeLeft) {
-            clearInterval(gameInterval)
-            window.location.href = "highscore.html";
-        }
+    if(!timeLeft) {
+         clearInterval(gameInterval)
+        window.location.href = "highscore.html";
+     }
     }, 1000);
 }
 

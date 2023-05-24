@@ -1,0 +1,30 @@
+#before-start {
+    margin: auto;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#timer {
+    width:500px;
+    margin:5px;
+    position: absolute;
+    right: 0px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#question-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
